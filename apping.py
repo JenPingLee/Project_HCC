@@ -24,8 +24,3 @@ st.markdown("---")
 st.sidebar.markdown("# Data Input")
 st.sidebar.subheader("Multiple samples")
 
-
-# 格式範例
-st.subheader("File format should look like this: ")
-exm_df = pd.read_csv("gse14520.count.csv")
-exm_df.iloc[1:5]
