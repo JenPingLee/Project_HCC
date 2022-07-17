@@ -9,7 +9,7 @@ gene_ls = ['AKR1D1', 'TIPARP', 'CYP3A4', 'HSD17B10', 'HSD17B8', 'AKR1C4',
 'DHRS9', 'SHH', 'HSD3B2', 'PLEKHA1', 'SRD5A2']
 
 
-import time
+# import time
 import streamlit as st
 import numpy as np
 import pandas as pd
