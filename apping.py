@@ -27,7 +27,7 @@ st.sidebar.subheader("Multiple samples")
 
 # 格式範例
 st.subheader("File format should look like this: ")
-exm_df = pd.read_csv("project_hcc/gse14520.count.csv")
+exm_df = pd.read_csv("gse14520.count.csv")
 exm_df.iloc[1:5]
 
 
@@ -134,7 +134,7 @@ standardized_dfe
 
 import joblib
 # load the model from disk
-filename = "project_hcc/classifier.pkl"
+filename = "classifier.pkl"
 # Load
 model = joblib.load(filename)
 
