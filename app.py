@@ -105,7 +105,7 @@ else:
         return features
 
     input_df = user_input_features()
-====
+# ====
 
 st.subheader("Here's your input data:")
 input_df
